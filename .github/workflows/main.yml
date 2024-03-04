@@ -6,11 +6,7 @@ on:
 
 jobs:
   setup:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Setup .NET 7
-        uses: HVcp/tstrepo/.github/workflows/actions@main
+   uses: HVcp/tstrepo/.github/workflows/actions@main
 
   build:
     runs-on: ubuntu-latest
